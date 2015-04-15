@@ -5,3 +5,5 @@ INCDIR= ./inc
 # Include Defaults
 #----------------------------------------------------
 include $(INCDIR)/make/defaults.mk
+
+modify file test.
