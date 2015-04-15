@@ -5,5 +5,3 @@ INCDIR= ./inc
 # Include Defaults
 #----------------------------------------------------
 include $(INCDIR)/make/defaults.mk
-
-replace hicp with CP
