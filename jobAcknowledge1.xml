@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><jobAcknowledge protocolGeneration="6" jobId="55ccc226b42a3" eta="-1">                                                                                         
+<apiSets apiGeneration="6">                                                                                                
+<apiSet vendorId="114916" platform="WINDOWS">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.55537</apiVersion>                                                                                                 
+<apiType>2</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.55537/114916/2//hasp_windows_114916.dll</apiUrl>                                                                                                 
+<apiHash>oQTmXZlJ69xKR9yC00rDjQ==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>lgHaROW2eix8H1xK2WZr5w==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>hasp_windows_114916.dll</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+<apiSet vendorId="114916" platform="WINDOWS">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.55537</apiVersion>                                                                                                 
+<apiType>1</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.55537/114916/1//libhasp_windows_114916.lib</apiUrl>                                                                                                 
+<apiHash>+95+Gdw5IRQecUnZbpoLqg==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>MqD9CFfebNUOL80aq6ZtIw==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>libhasp_windows_114916.lib</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+<apiSet vendorId="114916" platform="WINDOWS">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.55539</apiVersion>                                                                                                 
+<apiType>3</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.55539/114916/3//libhasp_windows_bcc_114916.lib</apiUrl>                                                                                                 
+<apiHash>e7gwkQz/YkFFk7eBJY8yrQ==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>126YSV6xRq826zob8svpxw==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>libhasp_windows_bcc_114916.lib</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+<apiSet vendorId="114916" platform="WINDOWS">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.55538</apiVersion>                                                                                                 
+<apiType>5</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.55538/114916/5//hasp_windows_x64_114916.dll</apiUrl>                                                                                                 
+<apiHash>e6PhRt0hWh0FdsB6JipJyQ==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>rkAaxfS4wXQkrSYatSKnyg==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>hasp_windows_x64_114916.dll</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+<apiSet vendorId="114916" platform="WINDOWS">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.55538</apiVersion>                                                                                                 
+<apiType>4</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.55538/114916/4//libhasp_windows_x64_114916.lib</apiUrl>                                                                                                 
+<apiHash>BDARI2LblqQ93wqs8rHe8A==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>SNbdAWStBEQG7AMiLuz21Q==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>libhasp_windows_x64_114916.lib</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+<apiSet vendorId="114916" platform="WINDOWS">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.55538</apiVersion>                                                                                                 
+<apiType>5</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.55538/114916/5//hasp_windows_x64_114916.dll</apiUrl>                                                                                                 
+<apiHash>e6PhRt0hWh0FdsB6JipJyQ==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>rkAaxfS4wXQkrSYatSKnyg==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>hasp_windows_x64_114916.dll</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+</apiSets>                                                                                                 
+<vlibSets apiGeneration="4">                                                                                                
+<vlibSet vendorId="114916" platform="WINDOWS">                                                                                               
+<vlib rebuild="false" status="finished">                                                                                               
+<vlibVersion>2.36.1.53591</vlibVersion>                                                                                                 
+<vlibType>2</vlibType>                                                                                                 
+<vlibUrl>http://10.20.3.246/data/VLIB/2.36.1.53591/114916/2/haspvlib_114916</vlibUrl>                                                                                                 
+<vlibHash>TjXEkz1XoeTZyS5apOiTWQ==</vlibHash>                                                                                                 
+<vlibFilename>haspvlib_114916.dll</vlibFilename>                                                                                                 
+</vlib>                                                                                                 
+</vlibSet>                                                                                                 
+</vlibSets>                                                                                                 
+</jobAcknowledge>                                                                                                 

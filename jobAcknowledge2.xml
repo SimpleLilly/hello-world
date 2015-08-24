@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><jobAcknowledge protocolGeneration="6" jobId="55ccc22a29087" eta="-1">                                                                                         
+<apiSets apiGeneration="6">                                                                                                
+<apiSet vendorId="114916" platform="LINUX">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.54751</apiVersion>                                                                                                 
+<apiType>19</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.54751/114916/19//libhasp_linux_114916.a</apiUrl>                                                                                                 
+<apiHash>soJfmQjb0c8zRyHRFjY5vQ==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>d2rmLLGhVPtivikaBhXkAg==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>libhasp_linux_114916.a</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+<apiSet vendorId="114916" platform="LINUX">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.54751</apiVersion>                                                                                                 
+<apiType>20</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.54751/114916/20//libhasp_linux_114916.so</apiUrl>                                                                                                 
+<apiHash>V2pdtRrkQ704pCjgiZVlJg==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>1MAKuJHnXC1HoJrHJ7T+hQ==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>libhasp_linux_114916.so</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+<apiSet vendorId="114916" platform="LINUX">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.54751</apiVersion>                                                                                                 
+<apiType>21</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.54751/114916/21//libhasp_linux_x86_64_114916.a</apiUrl>                                                                                                 
+<apiHash>Glx9kva9tMp92ODtYEsx/A==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>ATl+VSxLge4oZTr0BQWTDw==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>libhasp_linux_x86_64_114916.a</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+<apiSet vendorId="114916" platform="LINUX">                                                                                               
+<api rebuild="false" status="finished">                                                                                               
+<apiVersion>7.4.1.54751</apiVersion>                                                                                                 
+<apiType>22</apiType>                                                                                                 
+<apiUrl>http://10.20.3.246/data/API/7.4.1.54751/114916/22//libhasp_linux_x86_64_114916.so</apiUrl>                                                                                                 
+<apiHash>FXuf0cMAerJdPIJQe7y/0g==</apiHash>                                                                                                 
+<apiEncryptedSessionKey>DnlWP/wmXEZSFEEaD/MDiA==</apiEncryptedSessionKey>                                                                                                 
+<apiFilename>libhasp_linux_x86_64_114916.so</apiFilename>                                                                                                 
+</api>                                                                                                 
+</apiSet>                                                                                                 
+</apiSets>                                                                                                 
+<vlibSets apiGeneration="4">                                                                                                
+<vlibSet vendorId="114916" platform="LINUX">                                                                                               
+<vlib rebuild="false" status="finished">                                                                                               
+<vlibVersion>2.36.1.53938</vlibVersion>                                                                                                 
+<vlibType>20</vlibType>                                                                                                 
+<vlibUrl>http://10.20.3.246/data/VLIB/2.36.1.53938/114916/20/haspvlib_114916</vlibUrl>                                                                                                 
+<vlibHash>zS1kN8MGLTfjRZtmGflHFA==</vlibHash>                                                                                                 
+<vlibFilename>haspvlib_114916.so</vlibFilename>                                                                                                 
+</vlib>                                                                                                 
+</vlibSet>                                                                                                 
+</vlibSets>                                                                                                 
+</jobAcknowledge>                                                                                                 

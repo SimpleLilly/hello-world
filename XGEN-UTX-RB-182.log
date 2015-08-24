@@ -1,0 +1,794 @@
+simple	21-Aug-2015 10:52:25	Build xGen - update Test xGen - run blackbox #182 (XGEN-UTX-RB-182) started building on agent 10.27.0.146
+simple	21-Aug-2015 10:52:25	Build working directory is C:\Bamboo\BambooHome\xml-data\build-dir\XGEN-UTX-RB
+simple	21-Aug-2015 10:52:25	Executing build xGen - update Test xGen - run blackbox #182 (XGEN-UTX-RB-182)
+simple	21-Aug-2015 10:52:25	Starting task 'Checkout Default Repository' of type 'com.atlassian.bamboo.plugins.vcs:task.vcs.checkout'
+simple	21-Aug-2015 10:52:25	Build always requires a clean checkout
+simple	21-Aug-2015 10:52:25	Cleaning build directory 'C:\Bamboo\BambooHome\xml-data\build-dir\XGEN-UTX-RB'
+simple	21-Aug-2015 10:55:03	Updating source code to revision: 4c6323cbd836d357d07eae1469b53f856c471e27
+simple	21-Aug-2015 10:55:09	Fetching 'refs/heads/xgen_live' from 'git://10.20.3.47/LDK'.
+simple	21-Aug-2015 10:55:19	Git: remote: Counting objects
+simple	21-Aug-2015 10:55:19	Git: remote: Compressing objects (5)
+simple	21-Aug-2015 10:55:19	Git: Receiving objects (5)
+simple	21-Aug-2015 10:55:19	Git: Resolving deltas (4)
+simple	21-Aug-2015 10:55:22	Git: Updating references (1)
+simple	21-Aug-2015 10:55:24	Git: Total 5 (delta 4), reused 0 (delta 0)
+simple	21-Aug-2015 10:55:28	Checking out revision 4c6323cbd836d357d07eae1469b53f856c471e27.
+simple	21-Aug-2015 10:55:28	Creating local git repository in 'C:\Bamboo\BambooHome\xml-data\build-dir\XGEN-UTX-RB\.git'.
+simple	21-Aug-2015 11:07:06	Updated source code to revision: 4c6323cbd836d357d07eae1469b53f856c471e27
+simple	21-Aug-2015 11:07:06	Finished task 'Checkout Default Repository' with result: Success
+simple	21-Aug-2015 11:07:06	Running pre-build action: VCS Version Collector
+simple	21-Aug-2015 11:07:06	Starting task 'run blackbox' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	21-Aug-2015 11:07:08	Beginning to execute external process for build 'xGen - update Test xGen - run blackbox #182 (XGEN-UTX-RB-182)'\n ... running command line: \nC:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\XGEN-UTX-RB-182-ScriptBuildTask-478614850850616427.bat\n ... in: C:\Bamboo\BambooHome\xml-data\build-dir\XGEN-UTX-RB\..\..\..\..\..\blackbox\n ... using extra environment variables: \nbamboo_repository_6062088_branch_name=xgen_live\nbamboo_RerunBuildTriggerReason_noOfRetries=1\nbamboo_capability_system_jdk_JDK_1_7=C:\compiler\jdk1.7.0_55\nbamboo_planRepository_type=git\nbamboo_shortPlanName=update Test xGen\nbamboo_planKey=XGEN-UTX\nbamboo_ManualBuildTriggerReason_stageName=Update all test xGen agent\nbamboo_repository_git_repositoryUrl=git://10.20.3.47/LDK\nbamboo_planRepository_1_branchName=xgen_live\nbamboo_repository_6062088_revision_number=4c6323cbd836d357d07eae1469b53f856c471e27\nbamboo_shortPlanKey=UTX\nbamboo_shortJobKey=RB\nbamboo_repository_6062088_git_repositoryUrl=git://10.20.3.47/LDK\nbamboo_build_working_directory=C:\Bamboo\BambooHome\xml-data\build-dir\XGEN-UTX-RB\nbamboo_planRepository_1_branch=xgen_live\nbamboo_repository_revision_number=4c6323cbd836d357d07eae1469b53f856c471e27\nbamboo_planName=xGen - update Test xGen\nbamboo_buildResultsUrl=http://muc1bamboo/browse/XGEN-UTX-RB-182\nbamboo_planRepository_revision=4c6323cbd836d357d07eae1469b53f856c471e27\nbamboo_buildResultKey=XGEN-UTX-RB-182\nbamboo_repository_git_username=\nbamboo_buildKey=XGEN-UTX-RB\nbamboo_ManualBuildTriggerReason_customRevision=4c6323cbd836d357d07eae1469b53f856c471e27\nbamboo_working_directory=C:\Bamboo\BambooHome\xml-data\build-dir\XGEN-UTX-RB\nbamboo_agentWorkingDirectory=C:\Bamboo\BambooHome\xml-data\build-dir\nbamboo_buildPlanName=xGen - update Test xGen - run blackbox\nbamboo_repository_name=LDK-mux-proxy xgen_live\nbamboo_resultsUrl=http://muc1bamboo/browse/XGEN-UTX-RB-182\nbamboo_repository_git_branch=xgen_live\nbamboo_planRepository_1_revision=4c6323cbd836d357d07eae1469b53f856c471e27\nbamboo_ManualBuildTriggerReason_userName=lchen1\nbamboo_planRepository_1_type=git\nbamboo_repository_6062088_git_username=\nbamboo_planRepository_1_name=LDK-mux-proxy xgen_live\nbamboo_capability_system_jdk_JDK_1_7_0_55=C:\compiler\jdk1.7.0_55\nbamboo_planRepository_branch=xgen_live\nbamboo_planRepository_username=\nbamboo_planRepository_branchName=xgen_live\nbamboo_capability_system_jdk_JDK=C:\compiler\jdk1.7.0_55\nbamboo_shortJobName=run blackbox\nbamboo_repository_branch_name=xgen_live\nbamboo_repository_6062088_git_branch=xgen_live\nbamboo_agentId=6520838\nbamboo_planRepository_1_repositoryUrl=git://10.20.3.47/LDK\nbamboo_planRepository_repositoryUrl=git://10.20.3.47/LDK\nbamboo_dependenciesDisabled=true\nbamboo_capability_OS_TYPE=win32_blackbox\nbamboo_planRepository_1_username=\nbamboo_buildNumber=182\nbamboo_planRepository_name=LDK-mux-proxy xgen_live\nbamboo_repository_6062088_name=LDK-mux-proxy xgen_live\nbamboo_customRevision=4c6323cbd836d357d07eae1469b53f856c471e27\nbamboo_buildTimeStamp=2015-08-21T10:44:02.992+02:00\n
+build	21-Aug-2015 11:07:08	
+build	21-Aug-2015 11:07:08	C:\blackbox>set JAVA_HOME=C:\compiler\jdk1.7.0_55 
+build	21-Aug-2015 11:07:08	
+build	21-Aug-2015 11:07:08	C:\blackbox>set JRE_HOME=C:\compiler\jdk1.7.0_55\jre;C:\compiler\jdk1.7.0_55 
+build	21-Aug-2015 11:07:08	
+build	21-Aug-2015 11:07:08	C:\blackbox>set PATH=C:\compiler\jdk1.7.0_55\bin;C:\compiler\jdk1.7.0_55\bin;C:\compiler\jdk1.7.0_55\bin;c:\build\bin;C:\compiler\python27;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem 
+build	21-Aug-2015 11:07:08	
+build	21-Aug-2015 11:07:08	C:\blackbox>set CLASSPATH=C:\compiler\jdk1.7.0_55\bin;c:\blackbox;C:\compiler\jdk1.7.0_55\bin;C:\compiler\jdk1.7.0_55\bin;C:\compiler\jdk1.7.0_55\bin;c:\build\bin;C:\compiler\python27;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem 
+build	21-Aug-2015 11:07:08	
+build	21-Aug-2015 11:07:08	C:\blackbox>java -jar blackbox.jar server=http://10.20.3.246 output=c:\blackbox\temp vendorId=114916 vlibkeyFile=c:\blackbox\vlib_114916.txt masterkeyFile=c:\blackbox\master_114916.txt 
+build	21-Aug-2015 11:07:09	downloading libraries for vendorid 114916 from server http://10.20.3.246 to c:\blackbox\temp
+build	21-Aug-2015 11:07:10	Trying to download vendor library
+build	21-Aug-2015 11:07:10	sending to http://10.20.3.246/getinfo: 
+build	21-Aug-2015 11:07:10	<?xml version="1.0" encoding="UTF-8"?><infoRequest protocolGeneration="1">
+build	21-Aug-2015 11:07:10	  <sender>
+build	21-Aug-2015 11:07:10	    <application>Cloud Blackbox</application>
+build	21-Aug-2015 11:07:10	    <version>6.0</version>
+build	21-Aug-2015 11:07:10	    <language>en-US</language>
+build	21-Aug-2015 11:07:10	    <platform>Windows</platform>
+build	21-Aug-2015 11:07:10	  </sender>
+build	21-Aug-2015 11:07:10	</infoRequest>
+build	21-Aug-2015 11:07:10	
+build	21-Aug-2015 11:07:11	got response:
+build	21-Aug-2015 11:07:11	<?xml version="1.0" encoding="UTF-8"?><info protocolGeneration="1">
+build	21-Aug-2015 11:07:11	<features version="1.0">
+build	21-Aug-2015 11:07:11	<canReturnV2c/>
+build	21-Aug-2015 11:07:11	<apis generation="5">
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Static">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55545</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>1</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Static</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55545</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>2</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows__VID__.dll</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Static for Borland">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55539</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>3</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows_bcc__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Static for Borland</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows Static">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55546</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>4</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows_x64__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows Static</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55546</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>5</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_x64__VID__.dll</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Delphi static object">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55539</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>6</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_delphi__VID__.obj</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Delphi static object</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows DLL Stub">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55545</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>27</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows DLL Stub</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows DLL Stub">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55546</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>28</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_x64__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows DLL Stub</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows ToolAPI DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55545</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>30</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>toolapi_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows ToolAPI DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	</apis>
+build	21-Aug-2015 11:07:11	<apis generation="6">
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Static">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>1</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Static</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>2</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows__VID__.dll</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Static for Borland">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55539</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>3</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows_bcc__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Static for Borland</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows Static">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>4</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows_x64__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows Static</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>5</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_x64__VID__.dll</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Delphi static object">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55539</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>6</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_delphi__VID__.obj</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Delphi static object</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows DLL Stub">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>27</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows DLL Stub</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows DLL Stub">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>28</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_x64__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows DLL Stub</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows ToolAPI DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>30</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>toolapi_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows ToolAPI DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	</apis>
+build	21-Aug-2015 11:07:11	<apis generation="7">
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Static">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>1</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Static</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>2</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows__VID__.dll</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Static for Borland">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55539</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>3</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows_bcc__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Static for Borland</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows Static">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>4</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libhasp_windows_x64__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows Static</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>5</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_x64__VID__.dll</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Delphi static object">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55539</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>6</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_delphi__VID__.obj</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Delphi static object</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows DLL Stub">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>27</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows DLL Stub</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows DLL Stub">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>28</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>hasp_windows_x64__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows DLL Stub</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows ToolAPI DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>30</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>toolapi_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows ToolAPI DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:07:11	</apis>
+build	21-Aug-2015 11:07:11	<apis generation="1000">
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows Static">
+build	21-Aug-2015 11:07:11	<apiVersion>2.3.1.55567</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>1</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libdog_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows Static</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>2.3.1.55567</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>2</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>dog_windows__VID__.dll</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows Static">
+build	21-Aug-2015 11:07:11	<apiVersion>2.3.1.55566</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>4</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>libdog_windows_x64__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows Static</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows DLL">
+build	21-Aug-2015 11:07:11	<apiVersion>2.3.1.55566</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>5</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>dog_windows_x64__VID__.dll</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows DLL</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="32 Bit Windows DLL Stub">
+build	21-Aug-2015 11:07:11	<apiVersion>2.3.1.55567</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>27</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>dog_windows__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">32 Bit Windows DLL Stub</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	<api platform="Windows" comment="64 Bit Windows DLL Stub">
+build	21-Aug-2015 11:07:11	<apiVersion>2.3.1.55566</apiVersion>
+build	21-Aug-2015 11:07:11	<apiType>28</apiType>
+build	21-Aug-2015 11:07:11	<apiFilenamePattern>dog_windows_x64__VID__.lib</apiFilenamePattern>
+build	21-Aug-2015 11:07:11	<apiReleaseDate/>
+build	21-Aug-2015 11:07:11	<apiDescriptions>
+build	21-Aug-2015 11:07:11	<apiDescription language="en-US">64 Bit Windows DLL Stub</apiDescription>
+build	21-Aug-2015 11:07:11	</apiDescriptions>
+build	21-Aug-2015 11:07:11	</api>
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:07:11	</apis>
+build	21-Aug-2015 11:07:11	<vendorlibs generation="4">
+build	21-Aug-2015 11:07:11	<vendorlib platform="Windows" comment="Windows Vendor Library">
+build	21-Aug-2015 11:07:11	<vlibVersion>2.36.1.53591</vlibVersion>
+build	21-Aug-2015 11:07:11	<vlibType>2</vlibType>
+build	21-Aug-2015 11:07:11	<vlibFilenamePattern>haspvlib__VID__.dll</vlibFilenamePattern>
+build	21-Aug-2015 11:07:11	<vlibReleaseDate/>
+build	21-Aug-2015 11:07:11	<vlibDescriptions>
+build	21-Aug-2015 11:07:11	<vlibDescription language="en-US"><![CDATA[This download contains the latest version of the Software Vendor Library]]></vlibDescription>
+build	21-Aug-2015 11:07:11	</vlibDescriptions>
+build	21-Aug-2015 11:07:11	</vendorlib>
+build	21-Aug-2015 11:07:11	<vendorlib platform="Darwin" comment="Mac Vendor Library">
+build	21-Aug-2015 11:07:11	<vlibVersion>2.36.1.53877</vlibVersion>
+build	21-Aug-2015 11:07:11	<vlibType>18</vlibType>
+build	21-Aug-2015 11:07:11	<vlibFilenamePattern>haspvlib__VID__.dylib</vlibFilenamePattern>
+build	21-Aug-2015 11:07:11	<vlibReleaseDate/>
+build	21-Aug-2015 11:07:11	<vlibDescriptions>
+build	21-Aug-2015 11:07:11	<vlibDescription language="en-US"><![CDATA[This download contains the latest version of the Software Vendor Library]]></vlibDescription>
+build	21-Aug-2015 11:07:11	</vlibDescriptions>
+build	21-Aug-2015 11:07:11	</vendorlib>
+build	21-Aug-2015 11:07:11	<vendorlib platform="Linux" comment="Linux Vendor Library">
+build	21-Aug-2015 11:07:11	<vlibVersion>2.36.1.53938</vlibVersion>
+build	21-Aug-2015 11:07:11	<vlibType>20</vlibType>
+build	21-Aug-2015 11:07:11	<vlibFilenamePattern>haspvlib__VID__.so</vlibFilenamePattern>
+build	21-Aug-2015 11:07:11	<vlibReleaseDate/>
+build	21-Aug-2015 11:07:11	<vlibDescriptions>
+build	21-Aug-2015 11:07:11	<vlibDescription language="en-US"><![CDATA[This download contains the latest version of the Software Vendor Library]]></vlibDescription>
+build	21-Aug-2015 11:07:11	</vlibDescriptions>
+build	21-Aug-2015 11:07:11	</vendorlib>
+build	21-Aug-2015 11:07:11	</vendorlibs>
+build	21-Aug-2015 11:07:11	</features>
+build	21-Aug-2015 11:07:11	</info>
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:07:11	send tohttp://10.20.3.246/jobrequest:
+build	21-Aug-2015 11:07:11	<?xml version="1.0" encoding="UTF-8"?><jobRequest protocolGeneration="6">
+build	21-Aug-2015 11:07:11	  <apiSets apiGeneration="6">
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>2</apiType>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>1</apiType>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55539</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>3</apiType>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>5</apiType>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>4</apiType>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>5</apiType>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	  </apiSets>
+build	21-Aug-2015 11:07:11	  <vlibSets apiGeneration="4">
+build	21-Aug-2015 11:07:11	    <vlibSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <vlib rebuild="false">
+build	21-Aug-2015 11:07:11	        <vlibVersion>2.36.1.53591</vlibVersion>
+build	21-Aug-2015 11:07:11	        <vlibType>2</vlibType>
+build	21-Aug-2015 11:07:11	      </vlib>
+build	21-Aug-2015 11:07:11	    </vlibSet>
+build	21-Aug-2015 11:07:11	  </vlibSets>
+build	21-Aug-2015 11:07:11	</jobRequest>
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:07:11	recived response from server<?xml version="1.0" encoding="UTF-8"?><jobAcknowledge protocolGeneration="6" jobId="55d6ea3597fc8" eta="30">
+build	21-Aug-2015 11:07:11	  <apiSets apiGeneration="6">
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false" status="in progress">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>2</apiType>
+build	21-Aug-2015 11:07:11	        <apiUrl>unspecified:file not there (114916,7.4.1.55683,2,API)</apiUrl>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false" status="in progress">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55683</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>1</apiType>
+build	21-Aug-2015 11:07:11	        <apiUrl>unspecified:file not there (114916,7.4.1.55683,1,API)</apiUrl>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false" status="finished">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55539</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>3</apiType>
+build	21-Aug-2015 11:07:11	        <apiUrl>http://10.20.3.246/data/API/7.4.1.55539/114916/3//libhasp_windows_bcc_114916.lib</apiUrl>
+build	21-Aug-2015 11:07:11	        <apiHash>e7gwkQz/YkFFk7eBJY8yrQ==</apiHash>
+build	21-Aug-2015 11:07:11	        <apiEncryptedSessionKey>126YSV6xRq826zob8svpxw==</apiEncryptedSessionKey>
+build	21-Aug-2015 11:07:11	        <apiFilename>libhasp_windows_bcc_114916.lib</apiFilename>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false" status="in progress">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>5</apiType>
+build	21-Aug-2015 11:07:11	        <apiUrl>unspecified:file not there (114916,7.4.1.55684,5,API)</apiUrl>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false" status="in progress">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>4</apiType>
+build	21-Aug-2015 11:07:11	        <apiUrl>unspecified:file not there (114916,7.4.1.55684,4,API)</apiUrl>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	    <apiSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <api rebuild="false" status="in progress">
+build	21-Aug-2015 11:07:11	        <apiVersion>7.4.1.55684</apiVersion>
+build	21-Aug-2015 11:07:11	        <apiType>5</apiType>
+build	21-Aug-2015 11:07:11	        <apiUrl>unspecified:file not there (114916,7.4.1.55684,5,API)</apiUrl>
+build	21-Aug-2015 11:07:11	      </api>
+build	21-Aug-2015 11:07:11	    </apiSet>
+build	21-Aug-2015 11:07:11	  </apiSets>
+build	21-Aug-2015 11:07:11	  <vlibSets apiGeneration="4">
+build	21-Aug-2015 11:07:11	    <vlibSet vendorId="114916" platform="WINDOWS">
+build	21-Aug-2015 11:07:11	      <vlib rebuild="false" status="finished">
+build	21-Aug-2015 11:07:11	        <vlibVersion>2.36.1.53591</vlibVersion>
+build	21-Aug-2015 11:07:11	        <vlibType>2</vlibType>
+build	21-Aug-2015 11:07:11	        <vlibUrl>http://10.20.3.246/data/VLIB/2.36.1.53591/114916/2/haspvlib_114916</vlibUrl>
+build	21-Aug-2015 11:07:11	        <vlibHash>TjXEkz1XoeTZyS5apOiTWQ==</vlibHash>
+build	21-Aug-2015 11:07:11	        <vlibFilename>haspvlib_114916.dll</vlibFilename>
+build	21-Aug-2015 11:07:11	      </vlib>
+build	21-Aug-2015 11:07:11	    </vlibSet>
+build	21-Aug-2015 11:07:11	  </vlibSets>
+build	21-Aug-2015 11:07:11	</jobAcknowledge>
+build	21-Aug-2015 11:07:11	
+build	21-Aug-2015 11:33:53	Trying to download vendor library
+build	21-Aug-2015 11:33:53	sending to http://10.20.3.246/getinfo: 
+build	21-Aug-2015 11:33:53	<?xml version="1.0" encoding="UTF-8"?><infoRequest protocolGeneration="1">
+build	21-Aug-2015 11:33:53	  <sender>
+build	21-Aug-2015 11:33:53	    <application>Cloud Blackbox</application>
+build	21-Aug-2015 11:33:53	    <version>6.0</version>
+build	21-Aug-2015 11:33:53	    <language>en-US</language>
+build	21-Aug-2015 11:33:53	    <platform>Linux</platform>
+build	21-Aug-2015 11:33:53	  </sender>
+build	21-Aug-2015 11:33:53	</infoRequest>
+build	21-Aug-2015 11:33:53	
+build	21-Aug-2015 11:33:53	got response:
+build	21-Aug-2015 11:33:53	<?xml version="1.0" encoding="UTF-8"?><info protocolGeneration="1">
+build	21-Aug-2015 11:33:53	<features version="1.0">
+build	21-Aug-2015 11:33:53	<canReturnV2c/>
+build	21-Aug-2015 11:33:53	<apis generation="5">
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="32 Bit Linux static">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>19</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">32 Bit Linux static</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="32 Bit Linux shared object">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>20</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux__VID__.so</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">32 Bit Linux shared object</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="64 Bit Linux static">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>21</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux_x86_64__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">64 Bit Linux static</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="64 Bit Linux shared object">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>22</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux_x86_64__VID__.so</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">64 Bit Linux shared object</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	</apis>
+build	21-Aug-2015 11:33:53	<apis generation="6">
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="32 Bit Linux static">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>19</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">32 Bit Linux static</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="32 Bit Linux shared object">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>20</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux__VID__.so</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">32 Bit Linux shared object</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="64 Bit Linux static">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>21</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux_x86_64__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">64 Bit Linux static</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="64 Bit Linux shared object">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>22</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux_x86_64__VID__.so</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">64 Bit Linux shared object</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	</apis>
+build	21-Aug-2015 11:33:53	<apis generation="7">
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="32 Bit Linux static">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>19</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">32 Bit Linux static</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="32 Bit Linux shared object">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>20</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux__VID__.so</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">32 Bit Linux shared object</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="64 Bit Linux static">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>21</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux_x86_64__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">64 Bit Linux static</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="64 Bit Linux shared object">
+build	21-Aug-2015 11:33:53	<apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>22</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libhasp_linux_x86_64__VID__.so</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">64 Bit Linux shared object</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	</apis>
+build	21-Aug-2015 11:33:53	<apis generation="1000">
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="32 Bit Linux static">
+build	21-Aug-2015 11:33:53	<apiVersion>2.3.1.54611</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>19</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libdog_linux__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">32 Bit Linux static</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="32 Bit Linux shared object">
+build	21-Aug-2015 11:33:53	<apiVersion>2.3.1.54611</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>20</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libdog_linux__VID__.so</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">32 Bit Linux shared object</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="64 Bit Linux static">
+build	21-Aug-2015 11:33:53	<apiVersion>2.3.1.54611</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>21</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libdog_linux_x86_64__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">64 Bit Linux static</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	<api platform="Linux" comment="64 Bit Linux shared object">
+build	21-Aug-2015 11:33:53	<apiVersion>2.3.1.54611</apiVersion>
+build	21-Aug-2015 11:33:53	<apiType>22</apiType>
+build	21-Aug-2015 11:33:53	<apiFilenamePattern>libdog_linux_x86_64__VID__.a</apiFilenamePattern>
+build	21-Aug-2015 11:33:53	<apiReleaseDate/>
+build	21-Aug-2015 11:33:53	<apiDescriptions>
+build	21-Aug-2015 11:33:53	<apiDescription language="en-US">64 Bit Linux shared object</apiDescription>
+build	21-Aug-2015 11:33:53	</apiDescriptions>
+build	21-Aug-2015 11:33:53	</api>
+build	21-Aug-2015 11:33:53	</apis>
+build	21-Aug-2015 11:33:53	<vendorlibs generation="4">
+build	21-Aug-2015 11:33:53	<vendorlib platform="Linux" comment="Linux Vendor Library">
+build	21-Aug-2015 11:33:53	<vlibVersion>2.36.1.53938</vlibVersion>
+build	21-Aug-2015 11:33:53	<vlibType>20</vlibType>
+build	21-Aug-2015 11:33:53	<vlibFilenamePattern>haspvlib__VID__.so</vlibFilenamePattern>
+build	21-Aug-2015 11:33:53	<vlibReleaseDate/>
+build	21-Aug-2015 11:33:53	<vlibDescriptions>
+build	21-Aug-2015 11:33:53	<vlibDescription language="en-US"><![CDATA[This download contains the latest version of the Software Vendor Library]]></vlibDescription>
+build	21-Aug-2015 11:33:53	</vlibDescriptions>
+build	21-Aug-2015 11:33:53	</vendorlib>
+build	21-Aug-2015 11:33:53	</vendorlibs>
+build	21-Aug-2015 11:33:53	</features>
+build	21-Aug-2015 11:33:53	</info>
+build	21-Aug-2015 11:33:53	
+build	21-Aug-2015 11:33:53	send tohttp://10.20.3.246/jobrequest:
+build	21-Aug-2015 11:33:53	<?xml version="1.0" encoding="UTF-8"?><jobRequest protocolGeneration="6">
+build	21-Aug-2015 11:33:53	  <apiSets apiGeneration="6">
+build	21-Aug-2015 11:33:53	    <apiSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <api rebuild="false">
+build	21-Aug-2015 11:33:53	        <apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	        <apiType>19</apiType>
+build	21-Aug-2015 11:33:53	      </api>
+build	21-Aug-2015 11:33:53	    </apiSet>
+build	21-Aug-2015 11:33:53	    <apiSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <api rebuild="false">
+build	21-Aug-2015 11:33:53	        <apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	        <apiType>20</apiType>
+build	21-Aug-2015 11:33:53	      </api>
+build	21-Aug-2015 11:33:53	    </apiSet>
+build	21-Aug-2015 11:33:53	    <apiSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <api rebuild="false">
+build	21-Aug-2015 11:33:53	        <apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	        <apiType>21</apiType>
+build	21-Aug-2015 11:33:53	      </api>
+build	21-Aug-2015 11:33:53	    </apiSet>
+build	21-Aug-2015 11:33:53	    <apiSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <api rebuild="false">
+build	21-Aug-2015 11:33:53	        <apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	        <apiType>22</apiType>
+build	21-Aug-2015 11:33:53	      </api>
+build	21-Aug-2015 11:33:53	    </apiSet>
+build	21-Aug-2015 11:33:53	  </apiSets>
+build	21-Aug-2015 11:33:53	  <vlibSets apiGeneration="4">
+build	21-Aug-2015 11:33:53	    <vlibSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <vlib rebuild="false">
+build	21-Aug-2015 11:33:53	        <vlibVersion>2.36.1.53938</vlibVersion>
+build	21-Aug-2015 11:33:53	        <vlibType>20</vlibType>
+build	21-Aug-2015 11:33:53	      </vlib>
+build	21-Aug-2015 11:33:53	    </vlibSet>
+build	21-Aug-2015 11:33:53	  </vlibSets>
+build	21-Aug-2015 11:33:53	</jobRequest>
+build	21-Aug-2015 11:33:53	
+build	21-Aug-2015 11:33:53	recived response from server<?xml version="1.0" encoding="UTF-8"?><jobAcknowledge protocolGeneration="6" jobId="55d6f0777ce31" eta="-1">
+build	21-Aug-2015 11:33:53	  <apiSets apiGeneration="6">
+build	21-Aug-2015 11:33:53	    <apiSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <api rebuild="false" status="finished">
+build	21-Aug-2015 11:33:53	        <apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	        <apiType>19</apiType>
+build	21-Aug-2015 11:33:53	        <apiUrl>http://10.20.3.246/data/API/7.4.1.54751/114916/19//libhasp_linux_114916.a</apiUrl>
+build	21-Aug-2015 11:33:53	        <apiHash>soJfmQjb0c8zRyHRFjY5vQ==</apiHash>
+build	21-Aug-2015 11:33:53	        <apiEncryptedSessionKey>d2rmLLGhVPtivikaBhXkAg==</apiEncryptedSessionKey>
+build	21-Aug-2015 11:33:53	        <apiFilename>libhasp_linux_114916.a</apiFilename>
+build	21-Aug-2015 11:33:53	      </api>
+build	21-Aug-2015 11:33:53	    </apiSet>
+build	21-Aug-2015 11:33:53	    <apiSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <api rebuild="false" status="finished">
+build	21-Aug-2015 11:33:53	        <apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	        <apiType>20</apiType>
+build	21-Aug-2015 11:33:53	        <apiUrl>http://10.20.3.246/data/API/7.4.1.54751/114916/20//libhasp_linux_114916.so</apiUrl>
+build	21-Aug-2015 11:33:53	        <apiHash>V2pdtRrkQ704pCjgiZVlJg==</apiHash>
+build	21-Aug-2015 11:33:53	        <apiEncryptedSessionKey>1MAKuJHnXC1HoJrHJ7T+hQ==</apiEncryptedSessionKey>
+build	21-Aug-2015 11:33:53	        <apiFilename>libhasp_linux_114916.so</apiFilename>
+build	21-Aug-2015 11:33:53	      </api>
+build	21-Aug-2015 11:33:53	    </apiSet>
+build	21-Aug-2015 11:33:53	    <apiSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <api rebuild="false" status="finished">
+build	21-Aug-2015 11:33:53	        <apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	        <apiType>21</apiType>
+build	21-Aug-2015 11:33:53	        <apiUrl>http://10.20.3.246/data/API/7.4.1.54751/114916/21//libhasp_linux_x86_64_114916.a</apiUrl>
+build	21-Aug-2015 11:33:53	        <apiHash>Glx9kva9tMp92ODtYEsx/A==</apiHash>
+build	21-Aug-2015 11:33:53	        <apiEncryptedSessionKey>ATl+VSxLge4oZTr0BQWTDw==</apiEncryptedSessionKey>
+build	21-Aug-2015 11:33:53	        <apiFilename>libhasp_linux_x86_64_114916.a</apiFilename>
+build	21-Aug-2015 11:33:53	      </api>
+build	21-Aug-2015 11:33:53	    </apiSet>
+build	21-Aug-2015 11:33:53	    <apiSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <api rebuild="false" status="finished">
+build	21-Aug-2015 11:33:53	        <apiVersion>7.4.1.54751</apiVersion>
+build	21-Aug-2015 11:33:53	        <apiType>22</apiType>
+build	21-Aug-2015 11:33:53	        <apiUrl>http://10.20.3.246/data/API/7.4.1.54751/114916/22//libhasp_linux_x86_64_114916.so</apiUrl>
+build	21-Aug-2015 11:33:53	        <apiHash>FXuf0cMAerJdPIJQe7y/0g==</apiHash>
+build	21-Aug-2015 11:33:53	        <apiEncryptedSessionKey>DnlWP/wmXEZSFEEaD/MDiA==</apiEncryptedSessionKey>
+build	21-Aug-2015 11:33:53	        <apiFilename>libhasp_linux_x86_64_114916.so</apiFilename>
+build	21-Aug-2015 11:33:53	      </api>
+build	21-Aug-2015 11:33:53	    </apiSet>
+build	21-Aug-2015 11:33:53	  </apiSets>
+build	21-Aug-2015 11:33:53	  <vlibSets apiGeneration="4">
+build	21-Aug-2015 11:33:53	    <vlibSet vendorId="114916" platform="LINUX">
+build	21-Aug-2015 11:33:53	      <vlib rebuild="false" status="finished">
+build	21-Aug-2015 11:33:53	        <vlibVersion>2.36.1.53938</vlibVersion>
+build	21-Aug-2015 11:33:53	        <vlibType>20</vlibType>
+build	21-Aug-2015 11:33:53	        <vlibUrl>http://10.20.3.246/data/VLIB/2.36.1.53938/114916/20/haspvlib_114916</vlibUrl>
+build	21-Aug-2015 11:33:53	        <vlibHash>zS1kN8MGLTfjRZtmGflHFA==</vlibHash>
+build	21-Aug-2015 11:33:53	        <vlibFilename>haspvlib_114916.so</vlibFilename>
+build	21-Aug-2015 11:33:53	      </vlib>
+build	21-Aug-2015 11:33:53	    </vlibSet>
+build	21-Aug-2015 11:33:53	  </vlibSets>
+build	21-Aug-2015 11:33:53	</jobAcknowledge>
+build	21-Aug-2015 11:33:53	
+build	21-Aug-2015 11:33:54	libraries downloaded - Test PASSED
+simple	21-Aug-2015 11:33:54	Finished task 'run blackbox' with result: Success
+simple	21-Aug-2015 11:33:54	Running post build plugin 'Artifact Copier'
+simple	21-Aug-2015 11:33:54	Running post build plugin 'npm Cache Cleanup'
+simple	21-Aug-2015 11:33:54	Running post build plugin 'NCover Results Collector'
+simple	21-Aug-2015 11:33:54	Running post build plugin 'Clover Results Collector'
+simple	21-Aug-2015 11:33:54	Running post build plugin 'Docker Container Cleanup'
+simple	21-Aug-2015 11:33:54	Finalising the build...
+simple	21-Aug-2015 11:33:54	Stopping timer.
+simple	21-Aug-2015 11:33:54	Build XGEN-UTX-RB-182 completed.
+simple	21-Aug-2015 11:31:25	Running on server: post build plugin 'NCover Results Collector'
+simple	21-Aug-2015 11:31:26	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	21-Aug-2015 11:31:26	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	21-Aug-2015 11:31:26	All post build plugins have finished
+simple	21-Aug-2015 11:31:26	Generating build results summary...
+simple	21-Aug-2015 11:31:28	Saving build results to disk...
+simple	21-Aug-2015 11:31:28	Indexing build results...
+simple	21-Aug-2015 11:31:28	Finished building XGEN-UTX-RB-182.
